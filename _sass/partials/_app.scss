@@ -198,11 +198,8 @@ footer {
     [main-start] minmax(0, 50rem) [main-end]
     minmax(1rem, 1fr) [full-end];
   background-color: $grey-bg-color;
-  > p, figure {
+  > p {
     grid-column: main;
-    display: flex;
-    justify-content: center;
-    align-content: center;
   }  
 }
 
