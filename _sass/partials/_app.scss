@@ -201,11 +201,15 @@ footer {
   background-color: $grey-bg-color;
   > p {
     grid-column: main;
+    justify-self: center;
+    grid-row: 2 / 3;
   }  
 }
 
 footer > img {
     grid-column: main;
+    justify-self: center;
+    grid-row: 1 / 2;
     width: 33.333%;
     height: 33.333%;
     border-radius: 50%;
