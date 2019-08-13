@@ -203,10 +203,11 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
-  }
-  > img {
+  }  
+}
+
+footer > img {
     width: 20%;
     height: 20%;
     border-radius: 50%;
   }
-}
