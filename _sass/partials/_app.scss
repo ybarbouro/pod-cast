@@ -94,7 +94,7 @@ header > nav {
       }
       a,
       a:visited {
-        color: #1a1a1a;
+        color: #226691;
         text-decoration: none;
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
@@ -105,7 +105,7 @@ header > nav {
         }
       }
       a:hover {
-        color: #1a1a1a;
+        color: $brand-color;
       }
     }
   }
