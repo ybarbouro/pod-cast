@@ -193,6 +193,7 @@ html[data-current="contact"] main > form {
 footer {
   grid-column: full;
   display: grid;
+  justify-items: center;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 50rem) [main-end]
@@ -204,7 +205,8 @@ footer {
 }
 
 footer > img {
-    width: 20%;
-    height: 20%;
+    grid-column: main;
+    width: 33.333%;
+    height: 33.333%;
     border-radius: 50%;
   }
