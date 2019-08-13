@@ -75,6 +75,7 @@ header > p {
 // main menu, is a grid item
 header > nav {
   margin-top: 65px;
+  grid-row: 3 / 4;
   @media screen and (min-width: $screen-sm-min) {
     float: right;
   }
@@ -82,7 +83,6 @@ header > nav {
     // flexbox is better than grid for distributing an unknown qty of children
     display: flex;
     justify-content: center;
-    grid-row: 3 / 4;
     li {
       margin-right: 2rem;
       display: inline-block;
