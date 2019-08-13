@@ -37,6 +37,7 @@ header {
 // logo, is a grid item
 header > h1 {
   display: inline-block;
+  font-size: 1.5rem;
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
@@ -45,13 +46,13 @@ header > h1 {
   a:visited {
     text-decoration: none;
     border: 0;
-    color: $brand-color;
+    color: #226691;
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
     }
   }
   a:hover {
-    color: #226691;
+    color:$brand-color;
   }
 }
 
@@ -63,6 +64,7 @@ header > p {
   width: 295px;
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
+    padding-left: 1.5rem;
     padding-bottom: 0;
   }
 }
