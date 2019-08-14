@@ -1,0 +1,30 @@
+.grids {
+  grid-column: full;
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 5rem;
+  margin-block-end: 10rem;
+}
+
+.item {
+  background-color:rgba(192,192,192,.1); /* best colour */
+  border-radius: 5px;
+  > img {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.item1 {
+  grid-column: span 2;
+  @media only screen and (max-width: 35em) {
+    grid-column: auto;
+  }
+}
+
+.item h1, h2, h3, p {
+  padding: 15px;
+}
