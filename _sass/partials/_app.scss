@@ -126,6 +126,12 @@ main {
   }
 }
 
+main.first {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 5rem;
+}
+
 // reset breaking fallbacks (e.g. widths) if CSS Grid is supported
 // float, inline-block, table properties are already ignored by CSS Grid
 @supports (display: grid) {
