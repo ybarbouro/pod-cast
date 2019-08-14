@@ -1,0 +1,36 @@
+article.front {
+  grid-column: full;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin-bottom: 2.7rem;
+}
+
+section.flexy {
+  flex-basis: 475px;
+  flex-grow: 1;
+  > img {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  > h1 {
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: $front-title-font-size;
+    @media screen and (min-width: $screen-sm-min) {
+      width: 75%;
+    }
+  }
+  > p {
+    padding-left: 3%;
+    padding-right: 3%;
+    @media screen and (min-width: $screen-sm-min) {
+      width: 80%;
+    }
+  }
+}
+
+section.flexy:nth-child(2n) {
+  margin-left: 0;
+}
