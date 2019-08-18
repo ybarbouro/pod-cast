@@ -35,6 +35,13 @@ section.flexy:nth-child(2n) {
   margin-left: 0;
 }
 
+section.flexi > iframe {
+  width: 100%;
+  @media screen and (min-width: $screen-sm-min) {
+  width:80%;
+ }
+}
+
 section.flexy > h1 {
   a,
   a:visited {
