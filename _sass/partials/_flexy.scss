@@ -34,3 +34,18 @@ section.flexy {
 section.flexy:nth-child(2n) {
   margin-left: 0;
 }
+
+section.flexy > h1 {
+  a,
+  a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #226691;
+    @media screen and (min-width: $screen-sm-min) {
+      padding: 1rem;
+    }
+  }
+  a:hover {
+    color:$brand-color;
+  }
+}
