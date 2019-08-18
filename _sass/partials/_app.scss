@@ -217,6 +217,7 @@ footer {
     font-family: $fair-font;
     text-align: center;
   > picture img {
+      display: flex;
       margin: 0 auto 3rem auto;
       width: 33.333%;
       height: 33.333%;
