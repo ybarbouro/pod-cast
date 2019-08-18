@@ -1,10 +1,15 @@
 <article class="front">
   <section class="flexy">
-  <img src="https://www.ecartelera.com/images/sets/32400/32431.jpg">
+    {% assign post = site.posts.first %}
+    
+    <figure>
+    <img src="{{ post.image }}">
+    <figcaption>{{ post.figcaption }}</figcaption>
+    </figure>
   </section>
 
     <section class="flexy">
-      {% for post in site.posts limit: 1%}
+      {% for post in site.posts limit: 1 %}
       {% assign author = site.data.authors[post.author] %}
 
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>

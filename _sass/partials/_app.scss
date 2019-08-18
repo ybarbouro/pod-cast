@@ -167,6 +167,13 @@ nav[aria-label="Adjacent Posts"] {
   }
 }
 
+figcaption {
+  font-family: $code-font;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  padding: 1.5rem;
+ }
+
 // contact form
 html[data-current="contact"] main > form {
   display: grid;

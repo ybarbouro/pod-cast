@@ -19,12 +19,17 @@
   }
 }
 
-.item1 {
-  grid-column: span 2;
+.item {
+  grid-column: auto;
   @media only screen and (max-width: 35em) {
     grid-column: auto;
   }
 }
+
+.item:nth-child(1) {
+    grid-column: span 2;
+  }
+
 
 .item h1, h2, h3, p {
   padding: 15px;

@@ -43,6 +43,11 @@ sass:
 compress_html:
   clippings: all
 
+# my own small notes
+collections:
+  capsulas:
+    output: true
+
 # set some common post defaults
 defaults:
   -
@@ -52,6 +57,12 @@ defaults:
     values:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
+
+  -
+    scope:
+      type: capsulas
+    values:
+      layout: capsule
 
 # Build settings
 markdown: kramdown
