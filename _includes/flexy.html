@@ -4,8 +4,7 @@
   </section>
 
     <section class="flexy">
-      {% assign post = site.posts.first %}
-      {% assign content = post.content %}
+      {% for post in site.posts limit: 1%}
       {% assign author = site.data.authors[post.author] %}
 
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -23,7 +22,7 @@
         <source src="https://tympanus.net/Development/AudioPlayer/audio/BlueDucks_FourFlossFiveSix.mp3">
     </audio>
     </p>
-
+  {% endfor %}
    </section>
 
 </article>
