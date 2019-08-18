@@ -36,10 +36,9 @@ section.flexy:nth-child(2n) {
 }
 
 div.flexi-frame {
-  width: 100%;
   @media screen and (min-width: $screen-sm-min) {
-  width:80%;
- }
+    width:80%;
+  }
 }
 
 section.flexy > h1 {
