@@ -35,7 +35,7 @@ section.flexy:nth-child(2n) {
   margin-left: 0;
 }
 
-section.flexi > iframe {
+div.flexi-frame {
   width: 100%;
   @media screen and (min-width: $screen-sm-min) {
   width:80%;
