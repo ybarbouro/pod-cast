@@ -1,7 +1,7 @@
 ---
 layout: capsule
 title: Alonso Fares
-author: fernando_mayorga
+author: karla_noguera
 thumbnail: /assets/img/uploads/ophaifk4aht6twgmah3b.jpg
 date: '2019-08-19 00:00:00'
 intro_paragraph: >
