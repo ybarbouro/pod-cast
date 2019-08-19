@@ -4,6 +4,10 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
+{% if capsulas.thumbnail %}
+<img src="{{ capsulas.thumbnail }}" alt="Fotografía de {{ capsulas.title }}"/>
+{% endif %}
+
 {% include page-intro.html %}
 
 {{ content }}
