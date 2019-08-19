@@ -2,8 +2,8 @@
 layout: capsule
 title: Alonso Fares
 author: fernando_mayorga
+thumbnail: /assets/img/uploads/ophaifk4aht6twgmah3b.jpg
 date: '2019-08-19 00:00:00'
-image: '//res.cloudinary.com/magnvs/image/upload/v1554263366/z3rykprbrodkhaucoebx.jpg'
 intro_paragraph: >
   Esta es un serie de palabras para presentar un párrafo introductorio. Por
   ejemplo en breves palabras lo más importante del podcast, el tema central.
