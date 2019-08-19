@@ -6,6 +6,9 @@
     {% if capsulas.image %}
     <img src="{{ capsulas.image }}" alt="Fotografía de {{ capsulas.title }}"/>
     {% endif %}
+    {% if capsulas.thumbnail %}
+    <img src="{{ capsulas.thumbnail }}" alt="Fotografía de {{ capsulas.title }}"/>
+    {% endif %}
     <h2 ><a href="{{ capsulas.url }}">{{ capsulas.title }}</a></h2>
     {% if capsulas.subtitle %}
     <h3>{{ capsulas.subtitle }}</h3>
