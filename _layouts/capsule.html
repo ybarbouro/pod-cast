@@ -4,6 +4,9 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
+{% assign capsulas = site.capsulas | sort: 'listing-priority' %}
+{% for capsulas in capsulas limit: 10 %}
+
 {% if capsulas.thumbnail %}
 <img src="{{ capsulas.thumbnail }}" alt="Fotografía de {{ capsulas.title }}"/>
 {% endif %}
@@ -17,8 +20,7 @@ layout: default
   <h3>Más recientes</h3>
 
   <ul>
-    {% assign capsulas = site.capsulas | sort: 'listing-priority' %}
-    {% for capsulas in capsulas limit: 10 %}
+
     {% assign author = site.data.authors[post.author] %}
       <li>
         <h4><a href="{{ capsulas.url }}">{{ capsulas.title }}</a></h4>
