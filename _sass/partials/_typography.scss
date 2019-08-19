@@ -40,9 +40,9 @@ h1,h2,h3,h4,h5,h6,figure {
 p.intro {
   font-size: 1.5rem;
   color: lighten($text-color, 40%);
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   @media screen and (min-width: $screen-sm-min) {
-    padding-bottom: 2rem;
+    padding: 2rem 0;
   }
 }
 
