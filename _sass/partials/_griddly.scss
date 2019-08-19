@@ -17,15 +17,37 @@
     padding-bottom: 1.7rem;
     width: 100%;
   }
+  > h1, h2  {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  > h3 {
+    margin: .7rem 0;
+  }
+  > p {
+  padding: 0;
+  }
 }
+
+h2 {
+a,
+a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #226691;
+  @media screen and (min-width: $screen-sm-min) {
+    padding: 0;
+  }
+}
+a:hover {
+  color:$brand-color;
+}
+}
+
 
 .item {
   grid-column: auto;
   @media only screen and (max-width: 35em) {
     grid-column: auto;
   }
-}
-
-.item h1, h2, h3, p {
-  padding: 15px;
 }

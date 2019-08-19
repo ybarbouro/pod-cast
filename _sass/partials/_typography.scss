@@ -38,11 +38,11 @@ h1,h2,h3,h4,h5,h6,figure {
 
 
 p.intro {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   color: lighten($text-color, 40%);
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 }
 

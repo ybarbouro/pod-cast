@@ -1,4 +1,5 @@
 ---
+layout: capsule
 title: Exposición restrospectiva de Manuel Jara
 listing-priority: 97
 image: "//res.cloudinary.com/magnvs/image/upload/v1554263366/z3rykprbrodkhaucoebx.jpg"

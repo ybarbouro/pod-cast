@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+{% include page-intro.html %}
+
+{{ content }}
+
+<section>
+
+  <h3>Más recientes</h3>
+
+  <ul>
+    {% assign capsulas = site.capsulas | sort: 'listing-priority' %}
+    {% for capsulas in capsulas limit: 10 %}
+    {% assign author = site.data.authors[post.author] %}
+      <li>
+        <h4><a href="{{ capsulas.url }}">{{ capsulas.title }}</a></h4>
+        <time datetime="{{ capsulas.date }}">
+          <small>
+            <strong>{{ capsulas.date | date_to_string }}</strong>
+            {% if author %}
+              by {{ author.name }}
+            {% endif %}
+          </small>
+        </time>
+        {{ capsulas.excerpt | strip_newlines | truncate: 150 }}
+      </li>
+    {% endfor %}
+  </ul>
+
+</section>

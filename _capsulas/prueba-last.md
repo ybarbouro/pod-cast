@@ -1,4 +1,5 @@
 ---
+layout: capsule
 title: Ultima en fila
 listing-priority: 100
 image: "//res.cloudinary.com/magnvs/image/upload/v1554263366/z3rykprbrodkhaucoebx.jpg"

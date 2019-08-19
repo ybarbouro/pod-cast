@@ -6,11 +6,12 @@
     {% if capsulas.image %}
     <img src="{{ capsulas.image }}" alt="Fotografía de {{ capsulas.title }}"/>
     {% endif %}
-    <h2>{{ capsulas.title }}</h2>
+    <h2 ><a href="{{ capsulas.url }}">{{ capsulas.title }}</a></h2>
     {% if capsulas.subtitle %}
     <h3>{{ capsulas.subtitle }}</h3>
     {% endif %}
-    <p>{{ capsulas.content }}</p>
+    <p class="intro">{{ capsulas.intro_paragraph }}</p>
+    <p>{{ capsulas.excerpt | strip_newlines | truncate: 327 }}</p>
   </div>
   {% endfor %}
 </div>
