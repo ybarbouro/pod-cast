@@ -9,7 +9,7 @@ image: '//www.ecartelera.com/images/sets/32400/32431.jpg'
 figcaption: >
   Cojuda, acepta mi halago.
 ---
-Entrevista con Diana Gardeneira, ganadora de la sexagésmia edición del Salón de Julio - Pintura &laquo;Fundación de Guayaquil&raquo;, veinte minutos donde cuenta sobre su  activismo y la plástica que nace de pincel.
+Entrevista con Diana Gardeneira, ganadora de la sexagésmia edición del Salón de Julio - Pintura &laquo;Fundación de Guayaquil&raquo;, veinte minutos donde cuenta sobre su  activismo y la plástica que nace de su pincel.
 
 <div class="flexi-frame">
 <iframe style="margin:0 0 2rem 0;" height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/e144cabf-5000-4216-be88-c992185e9ba7?dark=true"></iframe>
