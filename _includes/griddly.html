@@ -5,9 +5,10 @@
   <div class="item">
     {% if capsulas.image %}
     <img src="{{ capsulas.image }}" alt="Fotografía de {{ capsulas.title }}"/>
-    {% endif %}
-    {% if capsulas.thumbnail %}
+    {% elseif capsulas.thumbnail %}
     <img src="{{ capsulas.thumbnail }}" alt="Fotografía de {{ capsulas.title }}"/>
+    {% else %}
+    <img src="//res.cloudinary.com/magnvs/image/upload/v1545067846/fachada-mmdg_ecm4yj.jpg" alt="Fachada del Museo Municipal"/>
     {% endif %}
     <h2 ><a href="{{ capsulas.url }}">{{ capsulas.title }}</a></h2>
     {% if capsulas.subtitle %}
