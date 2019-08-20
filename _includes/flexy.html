@@ -1,7 +1,7 @@
 <article class="front">
   <section class="flexy">
     {% assign post = site.posts.first %}
-    
+
     <figure>
     <img src="{{ post.image }}">
     <figcaption>{{ post.figcaption }}</figcaption>
@@ -17,7 +17,7 @@
       <small>
         <strong>{{ post.date | date_to_string }}</strong>
         {% if author %}
-          by {{ author.name }}
+          por {{ author.name }}
         {% endif %}
       </small>
     </time></p>
@@ -30,7 +30,7 @@
     <h3>Recent posts from the blog</h3>
 
     <ul>
-      {% for post in site.posts limit:3 %}
+      {% for post in site.posts offset:1 limit:3 %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>

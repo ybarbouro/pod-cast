@@ -4,13 +4,6 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-{% assign capsulas = site.capsulas | sort: 'listing-priority' %}
-{% for capsulas in capsulas limit: 10 %}
-
-{% if capsulas.thumbnail %}
-<img style="margin-bottom: 2rem;" src="{{ capsulas.thumbnail }}" alt="Fotografía de {{ capsulas.title }}"/>
-{% endif %}
-
 {% include page-intro.html %}
 
 {{ content }}
@@ -20,19 +13,21 @@ layout: default
   <h3>Más recientes</h3>
 
   <ul>
+    {% assign capsulas = site.capsulas | sort: 'listing-priority' %}
+    {% for capsule in capsulas limit: 10 %}
 
     {% assign author = site.data.authors[post.author] %}
       <li>
-        <h4><a href="{{ capsulas.url }}">{{ capsulas.title }}</a></h4>
+        <h4><a href="{{ capsule.url }}">{{ capsule.title }}</a></h4>
         <time datetime="{{ capsulas.date }}">
           <small>
-            <strong>{{ capsulas.date | date_to_string }}</strong>
+            <strong>{{ capsule.date | date_to_string }}</strong>
             {% if author %}
               by {{ author.name }}
             {% endif %}
           </small>
         </time>
-        {{ capsulas.excerpt | strip_newlines | truncate: 150 }}
+        {{ capsule.excerpt | strip_newlines | truncate: 150 }}
       </li>
     {% endfor %}
   </ul>

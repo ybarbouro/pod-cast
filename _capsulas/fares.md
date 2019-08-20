@@ -1,5 +1,5 @@
 ---
-layout: capsule
+layout: capsulas
 title: Alonso Fares
 author: karla_noguera
 thumbnail: /assets/img/uploads/ophaifk4aht6twgmah3b.jpg
