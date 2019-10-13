@@ -5,9 +5,9 @@ author: Fernando Mayorga
 date: '2018-07-19 10:07:32'
 intro_paragraph: 'La noticia de que su obra ganó el Primer Premio fue tendencia en las redes sociales.'
 categories: misc
-image: '//www.ecartelera.com/images/sets/32400/32431.jpg'
+image: '//namjestaj-lateran.com/369/fdc9794e1b4ff8450ae79e006134b896.jpg'
 figcaption: >
-  Cojuda, acepta mi halago.
+  Chocolate caliente.
 ---
 Entrevista con Diana Gardeneira, ganadora de la sexagésmia edición del Salón de Julio - Pintura &laquo;Fundación de Guayaquil&raquo;, veinte minutos donde cuenta sobre su  activismo y la plástica que nace de su pincel.
 
