@@ -5,7 +5,7 @@ author: Fernando Mayorga
 date: '2018-07-19 10:07:32'
 intro_paragraph: 'La noticia de que su obra ganó el Primer Premio fue tendencia en las redes sociales.'
 categories: misc
-image: '//namjestaj-lateran.com/369/fdc9794e1b4ff8450ae79e006134b896.jpg'
+image: '//i0.wp.com/nerdbastards.com/wp-content/uploads/2014/06/Rosario-Dawson-5.jpg'
 figcaption: >
   Chocolate caliente.
 ---
