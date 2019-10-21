@@ -7,7 +7,7 @@ intro_paragraph: 'La noticia de que su obra ganó el Primer Premio fue tendencia
 categories: misc
 image: '//i0.wp.com/nerdbastards.com/wp-content/uploads/2014/06/Rosario-Dawson-5.jpg'
 figcaption: >
-  Chocolate caliente.
+  Rosario.
 ---
 Entrevista con Diana Gardeneira, ganadora de la sexagésmia edición del Salón de Julio - Pintura &laquo;Fundación de Guayaquil&raquo;, veinte minutos donde cuenta sobre su  activismo y la plástica que nace de su pincel.
 
