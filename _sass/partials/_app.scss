@@ -72,10 +72,17 @@ header > p {
   }
 }
 
+header > img {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  @media screen and (min-width: $screen-sm-min) {
+    padding-bottom: 0.5rem;
+  }
+}
 // main menu, is a grid item
 header > nav {
   margin-top: 65px;
-  grid-row: 3 / 4;
+  grid-row: 4 / 5;
   @media screen and (min-width: $screen-sm-min) {
     float: right;
   }

@@ -40,15 +40,15 @@ h1,h2,h3,h4,h5,h6,figure {
 p.intro {
   font-size: 1.5rem;
   color: lighten($text-color, 40%);
-  padding: 1rem 0;
+  padding: 1rem;
   @media screen and (min-width: $screen-sm-min) {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
   }
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: $fair-font;
-  font-weight: $bold-font-weight;
+  font-family: $public-font;
+  font-weight: $regular-font-weight;
   line-height: $base-line-height / 1.3;
 }
 

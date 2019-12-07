@@ -10,7 +10,7 @@ layout: default
 
 <section>
 
-  <h3>Más recientes</h3>
+  <h2>Más recientes</h2>
 
   <ul>
     {% assign capsulas = site.capsulas | sort: 'listing-priority' %}
@@ -18,7 +18,7 @@ layout: default
 
     {% assign author = site.data.authors[post.author] %}
       <li>
-        <h4><a href="{{ capsule.url }}">{{ capsule.title }}</a></h4>
+        <h3><a href="{{ capsule.url }}">{{ capsule.title }}</a></h3>
         <time datetime="{{ capsulas.date }}">
           <small>
             <strong>{{ capsule.date | date_to_string }}</strong>
