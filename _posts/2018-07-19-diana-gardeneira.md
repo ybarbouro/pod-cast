@@ -5,7 +5,7 @@ author: Fernando Mayorga
 date: '2018-07-19 10:07:32'
 intro_paragraph: 'La noticia de que su obra ganó el Primer Premio fue tendencia en las redes sociales.'
 categories: misc
-image: '//i0.wp.com/nerdbastards.com/wp-content/uploads/2014/06/Rosario-Dawson-5.jpg'
+image: '//media1.popsugar-assets.com/files/thumbor/xhixJLFHiNFj2e-l3ngMS2IskAg/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/09/29/000/n/1922398/9fcce84e_GettyImages-489164518.jpg'
 figcaption: >
   Rosario.
 ---

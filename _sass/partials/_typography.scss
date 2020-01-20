@@ -38,8 +38,9 @@ h1,h2,h3,h4,h5,h6,figure {
 
 
 p.intro {
-  font-size: 1.5rem;
-  color: lighten($text-color, 40%);
+  font-size: $sm-font-size;
+  line-height: $sm-line-height;
+  color: lighten($text-color, 30%);
   padding: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding: 2rem 1rem;
@@ -47,7 +48,7 @@ p.intro {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: $public-font;
+  font-family: $unica-font;
   font-weight: $regular-font-weight;
   line-height: $base-line-height / 1.3;
 }
