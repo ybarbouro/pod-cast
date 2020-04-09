@@ -1,0 +1,79 @@
+.gridsq {
+  margin: 1%;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  @media only screen and (max-width: 35em) {
+    grid-column: full;
+    grid-template-columns: 1fr;
+    }
+  > div {
+    padding: 1rem;
+    position:relative;
+    &::before {
+      // for aspect ratio
+      content: "";
+      padding-bottom: 100%;
+      display:block;
+    }
+  img {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.gridsq {
+  > div.main-sq {
+    grid-column: span 2;
+    grid-row: span 2;
+    @media only screen and (max-width: 35em) {
+      grid-column: auto;}
+  }
+  > div.main-sq-text {
+    grid-column: 3 / 4;
+    grid-row: span 2;
+    @media only screen and (max-width: 35em) {
+      grid-column: auto;
+      }
+  }
+}
+
+div.main-sq-text {
+  > p {
+  justify-self: start;
+  margin-top: -90% !important;
+  }
+}
+
+.gridsq {
+  > div:nth-child(1) {
+    background-color: black;
+    }
+  > div:nth-child(2) {
+    background-color: transparent;
+    }
+  > div:nth-child(3) {
+    background-color: transparent;
+    @media only screen and (max-width: 35em) {
+      justify-self: end;
+      margin-top: -15% !important;
+      }
+    }
+  > div:nth-child(4) {
+    background-color: black;
+    }
+  > div:nth-child(5) {
+    background-color: black;
+    }
+  > div:nth-child(6) {
+    background-color: transparent;
+    @media only screen and (max-width: 35em) {
+      justify-self: start;
+      margin-top: -25% !important;
+      }
+    }
+  }
