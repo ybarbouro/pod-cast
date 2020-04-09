@@ -37,23 +37,29 @@ header {
 // logo, is a grid item
 header > h1 {
   display: inline-block;
-  font-family: $noto-font;
-  font-size: $alt-font-size;
+  max-width: 65%;
+  font-family: $alt-font;
+  font-weight: 900;
+  font-size: 7em;
+  line-height: 1em;
   padding-bottom: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0.5rem;
+  }
+  @media only screen and (max-width: 35em) {
+  font-size: 3.5em;
   }
   a,
   a:visited {
     text-decoration: none;
     border: 0;
-    color: #226691;
+    color: $brand-color;
     @media screen and (min-width: $screen-sm-min) {
-      padding: 1rem;
+      padding:0;
     }
   }
   a:hover {
-    color:$brand-color;
+    color:#226691;
   }
 }
 
