@@ -22,7 +22,9 @@ body {
   font-weight: $base-font-weight;
   font-style: normal;
 	font-variant: normal;
-  font-size: 2rem; // this is equivalent to 16px
+  font-size: 2rem; // this is equivalent to ?px
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 1.46rem;}
 }
 
 h1,h2,h3,h4,h5,h6,p,figure,time {
