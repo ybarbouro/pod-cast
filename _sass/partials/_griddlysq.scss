@@ -1,5 +1,6 @@
 .gridsq {
-  margin: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(5, 1fr);
@@ -73,7 +74,7 @@ div.main-sq-text {
     background-color: transparent;
     @media only screen and (max-width: 35em) {
       justify-self: start;
-      margin-top: -25% !important;
+      margin-top: -20% !important;
       }
     }
   }
