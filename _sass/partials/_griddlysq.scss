@@ -20,9 +20,15 @@
   img {
     position: absolute;
     max-width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    transition: transform 400ms ease-out;
+    }
+  img:hover {
+	transform: scale(1.15);
     }
   }
 }
@@ -31,6 +37,7 @@
   > div.main-sq {
     grid-column: span 2;
     grid-row: span 2;
+    overflow: hidden;
     @media only screen and (max-width: 35em) {
       grid-column: auto;}
   }
@@ -52,7 +59,7 @@ div.main-sq-text {
 
 .gridsq {
   > div:nth-child(1) {
-    background-color: black;
+    background-color: transparent;
     }
   > div:nth-child(2) {
     background-color: transparent;
@@ -66,10 +73,12 @@ div.main-sq-text {
       }
     }
   > div:nth-child(4) {
-    background-color: black;
+    background-color:transparent;
+    overflow: hidden;
     }
   > div:nth-child(5) {
-    background-color: black;
+    background-color: transparent;
+    overflow: hidden;
     }
   > div:nth-child(6) {
     background-color: transparent;
