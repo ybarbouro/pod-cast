@@ -16,8 +16,9 @@ html {
 // the root breakpoints above will then scale all elements together
 
 body {
+  background-color: $paper;
   color: $text-color;
-  font-family: $alt-font;
+  font-family: $public-font;
   line-height: $base-line-height;
   font-weight: $base-font-weight;
   font-style: normal;
@@ -38,7 +39,6 @@ h1,h2,h3,h4,h5,h6,figure {
   }
 }
 
-
 p.intro {
   font-size: $sm-font-size;
   line-height: $sm-line-height;
@@ -48,6 +48,17 @@ p.intro {
     padding: 2rem 1rem;
   }
 }
+
+h1.brick {
+  color: $brick;
+}
+h2.brick {
+  color: $brick;
+}
+h3.brick {
+  color: $brick;
+}
+
 
 h1,h2,h3,h4,h5,h6 {
   font-family: $noto-font;
@@ -80,16 +91,16 @@ small {
 
 a,
 a:visited {
-  border-bottom: 0.05em solid $link-color;
+  border-bottom: 0.05em solid $brick;
 	text-decoration: none;
-	color: $link-color;
+	color: $brick;
 }
 
 a:hover,
 a:active {
   text-decoration: none;
   border: 0;
-  color: $link-hover-color;
+  color: $brick-hover;
 }
 
 header > h1 {

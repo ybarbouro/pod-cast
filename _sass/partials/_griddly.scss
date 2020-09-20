@@ -10,7 +10,7 @@
 }
 
 .item {
-  background-color:rgba(236,239,241,.8); /* best colour */
+  background-color:rgba(240,156,117,1); /* best colour */
   border-radius: 3px;
   > img {
     margin: 0;
@@ -30,15 +30,15 @@
   }
 }
 .item:nth-child(2) {
-  background-color: rgba(236,239,241,.6);
+  background-color: rgba(236,239,241,.8);
 }
 
 .item:nth-child(3) {
-  background-color: rgba(236,239,241,.4);
+  background-color: rgba(236,239,241,.6);
 }
 
 .item:nth-child(4) {
-  background-color: rgba(236,239,241,.2);
+  background-color: rgba(236,239,241,.4);
 }
 
 h2 {
