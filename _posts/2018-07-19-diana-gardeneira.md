@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diana Gardeneira, arte y feminismo
+title: Le cambié de título al post
 author: Fernando Mayorga
 date: '2018-07-19 10:07:32'
 intro_paragraph: 'La noticia de que su obra ganó el Primer Premio fue tendencia en las redes sociales.'
@@ -9,6 +9,7 @@ image: '//media1.popsugar-assets.com/files/thumbor/xhixJLFHiNFj2e-l3ngMS2IskAg/f
 figcaption: >
   Rosario.
 ---
+
 Entrevista con Diana Gardeneira, ganadora de la sexagésmia edición del Salón de Julio - Pintura &laquo;Fundación de Guayaquil&raquo;, veinte minutos donde cuenta sobre su  activismo y la plástica que nace de su pincel.
 
 <div class="flexi-frame">
